@@ -18,7 +18,7 @@
 
 ## 📋 Descripción General
 
-**WannaCry Triage Toolkit** es una herramienta de triaje forense automatizado diseñada para analizar, clasificar y correlacionar muestras de malware polimórfico en entornos de laboratorio controlados. Fue desarrollada como parte de un workshop práctico del **Bootcamp de Ciberseguridad Betek (2026)**, donde se analizó un binario real del ransomware **WannaCry** en un entorno aislado (*Air-Gap*) sobre **Kali Linux**.
+**WannaCry Triage Toolkit** es un script de triaje forense desarrollado como **ejercicio práctico de laboratorio** en el Workshop de Detección de Malware del **Bootcamp de Ciberseguridad Betek (2026)**. Permite analizar y comparar muestras del ransomware **WannaCry** en un entorno aislado (*Air-Gap*) sobre **Kali Linux**, integrando tres herramientas de detección en un solo flujo automatizado.
 
 La herramienta integra en un único pipeline automatizado tres tecnologías complementarias de detección:
 
@@ -110,12 +110,12 @@ sudo apt update && sudo apt install yara python3-yara ssdeep python3-ssdeep libf
 
 ```
 /home/kali/Downloads/laboratorio/
-├── WannaCry.exe                  # Binario base (sin permisos de ejecución)
-├── wannacry.yar                  # Reglas YARA de detección
-├── analizador.py                 # Script básico del workshop
-├── Kali-WannaCry-Triage-Toolkit-V0.py  # ← Esta herramienta
-└── wannacry_mutaciones/
-    ├── wannacry_mutado_v1.exe
+├── WannaCry.exe                        # Binario base (sin permisos de ejecución)
+├── wannacry.yar                        # Reglas YARA de detección
+├── analizador.py                       # Script básico del workshop
+├── Kali-WannaCry-Triage-Toolkit-V0.py  # ← Esta es la herramienta de Triaje
+└── wannacry_mutaciones/                # Acá se guardan la mutaciones para ser analizadas
+    ├── wannacry_mutado_v1.exe          # Eejemplo de mutación de WannaCry.exe
     └── ...
 ```
 
@@ -139,12 +139,12 @@ python3 Kali-WannaCry-Triage-Toolkit-V0.py
 ```
 wannacry-triage-toolkit/
 │
-├── Kali-WannaCry-Triage-Toolkit-V0.py   # Script principal del toolkit
+├── Kali-WannaCry-Triage-Toolkit-V0.py    # Script principal del toolkit
 ├── wannacry.yar                          # Ruleset YARA (Detector_De_WannaCry)
 ├── README.md                             # Este documento
 │
 └── docs/
-    └── Workshop_Deteccion_Malware_Abraham_Naranjo.pdf
+    └── Workshop_Deteccion_Malware_Abraham_Naranjo.pdf # PDF con la evidencia académica antes de mejorar el script
 ```
 
 ---
@@ -190,8 +190,9 @@ La **integración en Python** automatiza este pipeline, permitiendo que si YARA 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abrahamnaranjof)
 
 - 📍 Medellín, Antioquia, Colombia
-- 🎓 Bootcamp de Ciberseguridad — Betek, 2026
-- 🛠️ Herramientas: Nmap · Metasploit · THC Hydra · Wireshark · Netcat · John The Ripper · YARA · SSDEEP
+- 🎓 Bachiller académico con formación en Ciberseguridad — Bootcamp Betek, 2026 
+- 🛠️ Herramientas aprendidas en laboratorio: Nmap · Metasploit · THC Hydra · Wireshark · Netcat · John The Ripper · YARA · SSDEEP
+- ⚠️ Este proyecto es un ejercicio educativo desarrollado en entorno controlado de laboratorio
 
 ---
 
