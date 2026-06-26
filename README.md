@@ -95,7 +95,9 @@ Análisis rápido de un único artefacto: extrae sus hashes criptográficos comp
 **Capturas de ejecución:**
 
 ![Módulo 02 — paso 1](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/03%20Inspecci%C3%B3n%20de%20Muestra%20%C3%9Anica%20Isolada%20(Generaci%C3%B3n%20de%20Hashes,%20Reglas%20YARA%20y%20Mapeo)/modulo2_1.png?raw=true)
+
 ![Módulo 02 — paso 2](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/03%20Inspecci%C3%B3n%20de%20Muestra%20%C3%9Anica%20Isolada%20(Generaci%C3%B3n%20de%20Hashes,%20Reglas%20YARA%20y%20Mapeo)/modulo2_2.png?raw=true)
+
 ![Módulo 02 — paso 3](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/03%20Inspecci%C3%B3n%20de%20Muestra%20%C3%9Anica%20Isolada%20(Generaci%C3%B3n%20de%20Hashes,%20Reglas%20YARA%20y%20Mapeo)/modulo2_3.png?raw=true)
 
 ---
@@ -103,6 +105,12 @@ Análisis rápido de un único artefacto: extrae sus hashes criptográficos comp
 ### Módulo 03 — Extractor Estático de Strings, Buffers Ocultos e Indicadores de Red (C2)
 
 Analiza los bytes crudos del binario **sin ejecutarlo** (análisis estático puro). Busca cadenas ASCII legibles (≥ 4 caracteres) para descubrir estáticamente URLs de C2, IPs, rutas internas, funciones de la API de Windows y buffers ocultos.
+
+**Capturas de ejecución:**
+
+![Módulo 03 — paso 1](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/04%20Extractor%20Est%C3%A1tico%20de%20Strings,%20Buffers%20Ocultos%20e%20Indicadores%20de%20Red%20(C2)/modulo3_1.png?raw=true)
+
+![Módulo 03 — paso 2](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/04%20Extractor%20Est%C3%A1tico%20de%20Strings,%20Buffers%20Ocultos%20e%20Indicadores%20de%20Red%20(C2)/modulo3_2.png?raw=true)
 
 ---
 
