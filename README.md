@@ -84,7 +84,7 @@ Escanea secuencialmente todo el directorio de mutaciones. Por cada archivo gener
 
 ![Módulo 01 — paso 2](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/02%20Ejecutar%20Triage%20y%20An%C3%A1lisis%20Masivo%20del%20Laboratorio%20(Criptograf%C3%ADa%20Completa%20+%20Homolog%C3%ADa)/modulo1_2.png?raw=true)
 
-![Módulo 01 — paso 3](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/02%20Ejecutar%20Triage%20y%20An%C3%A1l.../modulo1_3.png?raw=true)
+![Módulo 01 — paso 3](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/02%20Ejecutar%20Triage%20y%20An%C3%A1lisis%20Masivo%20del%20Laboratorio%20(Criptograf%C3%ADa%20Completa%20+%20Homolog%C3%ADa)/modulo1_3.png?raw=true)
 
 ---
 
