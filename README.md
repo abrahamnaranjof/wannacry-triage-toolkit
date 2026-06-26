@@ -94,9 +94,9 @@ Análisis rápido de un único artefacto: extrae sus hashes criptográficos comp
 
 **Capturas de ejecución:**
 
-![Módulo 02 — paso 1](wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/03%20Inspecci%C3%B3n%20de%20Muestra%20%C3%9Anica/modulo2_1.png)
-![Módulo 02 — paso 2](wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/03%20Inspecci%C3%B3n%20de%20Muestra%20%C3%9Anica/modulo2_2.png)
-![Módulo 02 — paso 3](wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/03%20Inspecci%C3%B3n%20de%20Muestra%20%C3%9Anica/modulo2_3.png)
+![Módulo 02 — paso 1](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/03%20Inspecci%C3%B3n%20de%20Muestra%20%C3%9Anica%20Isolada%20(Generaci%C3%B3n%20de%20Hashes,%20Reglas%20YARA%20y%20Mapeo)/modulo2_1.png?raw=true)
+![Módulo 02 — paso 2](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/03%20Inspecci%C3%B3n%20de%20Muestra%20%C3%9Anica%20Isolada%20(Generaci%C3%B3n%20de%20Hashes,%20Reglas%20YARA%20y%20Mapeo)/modulo2_2.png?raw=true)
+![Módulo 02 — paso 3](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/03%20Inspecci%C3%B3n%20de%20Muestra%20%C3%9Anica%20Isolada%20(Generaci%C3%B3n%20de%20Hashes,%20Reglas%20YARA%20y%20Mapeo)/modulo2_3.png?raw=true)
 
 ---
 
