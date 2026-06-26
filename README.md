@@ -80,9 +80,11 @@ Escanea secuencialmente todo el directorio de mutaciones. Por cada archivo gener
 
 **Capturas de ejecución:**
 
-![Módulo 01 — paso 1]https://github.com/abrahamnaranjof/wannacry-triage-toolkit/commit/81d02aca84ebbb5a15ba581cd5c29156713e3b50#diff-22162d1df868e70d1b93094b5ea28fad7f0203406e4618631b2ba0d99b17ca7b?raw=true
-![Módulo 01 — paso 2](wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/02%20Ejecutar%20Triage%20y%20An%C3%A1lisis%20Masivo/modulo1_2.png)
-![Módulo 01 — paso 3](wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/02%20Ejecutar%20Triage%20y%20An%C3%A1lisis%20Masivo/modulo1_3.png)
+![Módulo 01 — paso 1](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/02%20Ejecutar%20Triage%20y%20An%C3%A1l.../modulo1_1.png?raw=true)
+
+![Módulo 01 — paso 2](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/02%20Ejecutar%20Triage%20y%20An%C3%A1l.../modulo1_2.png?raw=true)
+
+![Módulo 01 — paso 3](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/02%20Ejecutar%20Triage%20y%20An%C3%A1l.../modulo1_3.png?raw=true)
 
 ---
 
