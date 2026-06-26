@@ -248,7 +248,8 @@ wannacry-triage-toolkit/
 ├── Kali-WannaCry-Triage-Toolkit-V0.py    # Script principal del toolkit
 ├── wannacry.yar                          # Ruleset YARA (Detector_De_WannaCry)
 ├── README.md                             # Este documento
-│
+├── analizador.py                         # Script Básico
+|
 ├── Capturas wannacry-triage-toolkit/     # Evidencia visual por módulo
 │   ├── 00 Demo De Herramienta GIF/
 │   │   └── demo_herramienta.gif
@@ -266,7 +267,8 @@ wannacry-triage-toolkit/
 │       └── ...
 │
 └── docs/
-    └── Workshop_Deteccion_Malware_Abraham_Naranjo.pdf  # Evidencia académica previa
+    └── Workshop Detección De Malware Solucionado Abraham Naranjo.pdf  # Evidencia académica previa
+
 ```
 
 ---
