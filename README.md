@@ -118,11 +118,25 @@ Analiza los bytes crudos del binario **sin ejecutarlo** (análisis estático pur
 
 Aplica la fórmula matemática de Shannon sobre los bytes del archivo. Valores superiores a **7.2 / 8.0** indican cifrado o empaquetado (UPX / *packers*), señal de evasión de antivirus por ofuscación del *payload*.
 
+**Capturas de ejecución:**
+
+![Módulo 04 — paso 1](<img width="1359" height="593" alt="image" src="https://github.com/user-attachments/assets/06cc49a1-ce45-4106-804f-e2061abdf6e9" />
+)
+
+![Módulo 04 — paso 2](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/05%20An%C3%A1lisis%20Estad%C3%ADstico%20de%20Entrop%C3%ADa%20de%20Shannon%20y%20Detecci%C3%B3n%20de%20Empaquetamiento%20(Packed)/modulo4_2.png?raw=true)
+
 ---
 
 ### Módulo 05 — Auditoría, Verificación de Sintaxis y Compilación de Reglas YARA
 
 Compila el AST sintáctico del conjunto de reglas `.yar` y verifica la salud del *ruleset* sin ejecutar ningún análisis sobre muestras. Detecta errores de sintaxis y conflictos entre reglas antes de desplegarlas en producción.
+
+
+**Capturas de ejecución:**
+
+![Módulo 05 — paso 1](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/06%20Auditor%C3%ADa,%20Verificaci%C3%B3n%20de%20Sintaxis%20y%20Compilaci%C3%B3n%20de%20Conjuntos%20de%20Reglas%20YARA/modulo5_1.png?raw=true)
+
+![Módulo 05 — paso 2](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/06%20Auditor%C3%ADa,%20Verificaci%C3%B3n%20de%20Sintaxis%20y%20Compilaci%C3%B3n%20de%20Conjuntos%20de%20Reglas%20YARA/modulo5_2.png?raw=true)
 
 ---
 
@@ -130,17 +144,39 @@ Compila el AST sintáctico del conjunto de reglas `.yar` y verifica la salud del
 
 Muestra las especificaciones técnicas completas del entorno: versiones de herramientas, rutas absolutas del laboratorio, dependencias del sistema y una guía de uso de cada módulo con ejemplos de salida esperada. Referencia rápida para operadores del SOC.
 
+**Capturas de ejecución:**
+
+![Módulo 05 — paso 1](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/07%20VER%20MANUAL%20DE%20OPERACIONES%20DETALLADO%20(Especificaciones%20T%C3%A9cnicas%20del%20Entorno)/modulo6_1.png?raw=true)
+
+![Módulo 05 — paso 2](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/07%20VER%20MANUAL%20DE%20OPERACIONES%20DETALLADO%20(Especificaciones%20T%C3%A9cnicas%20del%20Entorno)/modulo6_2.png?raw=true)
+
 ---
 
 ### Módulo 07 — Compilar e Ingestar Reporte de Triage a JSON (Formato SIEM/ECS)
 
 Genera un artefacto forense `triage_report.json` estructurado bajo el estándar **Elastic Common Schema (ECS)**, listo para ser ingestado por **Elasticsearch / Kibana**, **Splunk** o **Wazuh**. Garantiza la trazabilidad y la cadena de custodia digital del análisis.
 
+**Capturas de ejecución:**
+
+![Módulo 07 — paso 1](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/08%20Compilar%20e%20Ingestar%20Reporte%20de%20Triage%20a%20Archivo%20de%20Log%20JSON%20(Formato%20SIEMECS)/modulo7_1.png?raw=true)
+
+![Módulo 07 — paso 2](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/08%20Compilar%20e%20Ingestar%20Reporte%20de%20Triage%20a%20Archivo%20de%20Log%20JSON%20(Formato%20SIEMECS)/modulo7_2.png?raw=true)
+
 ---
 
 ### Módulo 08 — Destrucción de Evidencia Volátil, Limpieza Secuencial y Cierre de Sesión (Matrix)
 
 Cierra la sesión de forma segura mediante la **destrucción controlada de evidencia volátil**: limpia variables en memoria, buffers temporales y rastros de ejecución del toolkit. La animación Matrix actúa como confirmación visual del procedimiento de destrucción, siguiendo prácticas OPSEC para entornos Air-Gap de alta sensibilidad.
+
+**Capturas de ejecución:**
+
+![Módulo 08 — paso 1](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/09%20Destrucci%C3%B3n%20de%20Evidencia%20Vol%C3%A1til,%20Limpieza%20Secuencial%20y%20Cierre%20de%20Sesi%C3%B3n%20(Matrix)/modulo8_1.png?raw=true)
+
+![Módulo 08 — paso 2](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/09%20Destrucci%C3%B3n%20de%20Evidencia%20Vol%C3%A1til,%20Limpieza%20Secuencial%20y%20Cierre%20de%20Sesi%C3%B3n%20(Matrix)/modulo8_2.png?raw=true)
+
+![Módulo 08 — paso 3](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/09%20Destrucci%C3%B3n%20de%20Evidencia%20Vol%C3%A1til,%20Limpieza%20Secuencial%20y%20Cierre%20de%20Sesi%C3%B3n%20(Matrix)/modulo8_3.png?raw=true)
+
+![Módulo 08 — paso 4](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/09%20Destrucci%C3%B3n%20de%20Evidencia%20Vol%C3%A1til,%20Limpieza%20Secuencial%20y%20Cierre%20de%20Sesi%C3%B3n%20(Matrix)/modulo8_4.png?raw=true)
 
 ---
 
