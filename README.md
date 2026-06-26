@@ -138,7 +138,7 @@ Cierra la sesión de forma segura mediante la **destrucción controlada de evide
 
 ### Demostración animada del toolkit en ejecución
 
-![Demo animada del toolkit](wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/00%20Demo%20De%20Herramienta%20GIF/demo_herramienta.gif)
+![Demo animada del toolkit](https://github.com/abrahamnaranjof/wannacry-triage-toolkit/blob/main/wannacry-triage-toolkit/Capturas%20wannacry-triage-toolkit/00%20Demo%20De%20Herramienta%20GIF/demo_herramienta.gif?raw=true)
 
 ### Comparativa de efectividad — Experimento WannaCry Mutado
 
